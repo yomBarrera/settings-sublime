@@ -1,0 +1,28 @@
+{
+    "auto_complete_triggers":
+    [
+        {
+            "characters": "b4",
+            "selector": "text.html",
+        }
+    ],
+    "color_scheme": "Mariana.sublime-color-scheme",
+    "font_size": 8,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+    ],
+    "open_files_in_new_window": false,
+    "save_on_focus_lost": true,
+    "tab_size": 2,
+    "theme": "Spacegray.sublime-theme",
+    "auto_complete": true,
+
+    "word_wrap": true,
+    "font_face": "Inconsolata",
+    "trim_trailing_white_space_on_save": false,
+    "translate_tabs_to_spaces": true,
+    "spellcheck": true,
+    "ensure_newline_at_eof_on_save": true,
+    "scroll_past_end": true,
+}

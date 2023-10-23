@@ -1,0 +1,34 @@
+[
+    { "keys": ["ctrl+."], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+,"], "command": "reindent" },
+
+//        {
+// //alt+1 for cmd
+//        "keys": ["alt+1"],
+//        "command": "terminus_open",
+//        "args" : {
+//            "cmd": "cmd.exe",
+//            "cwd": "${file_path:${folder}}",
+//            "panel_name": "Terminus"
+//        }
+//    },
+//    {
+// //alt +2 for git bash
+//        "keys": ["alt+2"],
+//        "command": "terminus_open",
+//        "args" : {
+//            "cmd": ["C:/Program Files/Git/bin/sh.exe"],
+//            "cwd": "${file_path:${folder}}",
+//            "panel_name": "Terminus"
+//        }
+//    },
+
+    { 
+        "keys": ["alt+`"], "command": "toggle_terminus_panel"
+    },
+        { 
+        "keys": ["ctrl+alt+t"], "command": "terminus_open", "args": {
+            "cwd": "${file_path:${folder}}"
+        }
+    }
+]
